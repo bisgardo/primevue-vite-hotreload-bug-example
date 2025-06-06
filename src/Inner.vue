@@ -3,5 +3,5 @@ import './service.js';
 </script>
 
 <template>
-  <Select/>
+  Contents...
 </template>
