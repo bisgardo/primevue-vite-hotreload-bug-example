@@ -1,5 +1,9 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import App from './App.vue';
+import { createApp } from 'vue';
+import { Select } from 'primevue';
+import PrimeVue from 'primevue/config';
 
-createApp(App).mount('#app')
+createApp(App)
+  .use(PrimeVue)
+  .component('Select', Select)
+  .mount('#app');
